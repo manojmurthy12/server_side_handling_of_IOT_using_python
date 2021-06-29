@@ -1,5 +1,6 @@
 from flask import *
 import psycopg2
+
 app = Flask(__name__)
 
 switch1=True
