@@ -6,7 +6,7 @@ app = Flask(__name__)
 switch1=True
 switch2=True
 
-sqlURI='postgres://hgxchphp:EpLGCsRdkDrdh2NS5LF3qa-P4Ei3ZCBi@arjuna.db.elephantsql.com/hgxchphp'
+sqlURI='Your_URL_from_ElephantSQL'
 
 connection=psycopg2.connect(sqlURI)
 try:
